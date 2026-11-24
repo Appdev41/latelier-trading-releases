@@ -2,27 +2,25 @@
 
 Ce dépôt **public** ne contient **aucun code source**.
 
-Il sert uniquement à héberger :
-- les installateurs Windows (`.exe`)
-- les installateurs macOS Electron (`Setup-*-mac-*.zip`)
-- les métadonnées d'auto-update (`latest.yml`, `latest-mac.yml`)
+Il héberge :
+- Windows : `lAtelierTrading-Setup-*.exe`
+- macOS : `lAtelierTrading-Setup-*-mac-*.zip` (+ `Installer.command`)
+- Auto-update : `latest.yml`, `latest-mac.yml`
 
 ## Téléchargement
 
-[Release v1.0.1](https://github.com/Appdev41/latelier-trading-releases/releases/tag/v1.0.1)
+[Release v1.0.2](https://github.com/Appdev41/latelier-trading-releases/releases/tag/v1.0.2)
 
 | Plateforme | Fichier |
 |---|---|
-| Windows | `lAtelierTrading-Setup-1.0.1.exe` |
-| macOS Apple Silicon (M1/M2/M3) | `lAtelierTrading-Setup-1.0.1-mac-arm64.zip` |
-| macOS Intel | `lAtelierTrading-Setup-1.0.1-mac-x64.zip` |
+| Windows | `lAtelierTrading-Setup-1.0.1.exe` (ou plus récent) |
+| macOS Apple Silicon | `lAtelierTrading-Setup-1.0.2-mac-arm64.zip` |
+| macOS Intel | `lAtelierTrading-Setup-1.0.2-mac-x64.zip` |
 
-### macOS — installation
+### macOS
 
-1. Télécharge le **Setup** `.zip` adapté à ta machine  
-2. Décompresse  
-3. Double-clic sur **`Installer.command`**  
-   - si macOS bloque : **clic droit → Ouvrir → Ouvrir**  
-4. L’app est installée dans Applications (signature ad-hoc + quarantaine retirée)
+1. Dézippe le **Setup**  
+2. Double-clic **`Installer.command`** (clic droit → Ouvrir si macOS bloque)  
+3. Ne pas ouvrir l’`.app` directement depuis le zip  
 
-Ne lance **pas** l’`.app` directement depuis le zip — passe par `Installer.command` (sinon Gatekeeper affiche « placer dans la Corbeille »).
+Ne pas télécharger le zip « Source code ».
