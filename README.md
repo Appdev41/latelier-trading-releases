@@ -1,13 +1,21 @@
 # l'Atelier Trading — Releases
 
-Ce dépôt **public** ne contient **aucun code source**.
-
-Il sert uniquement à héberger :
-- les installateurs Windows (`.exe`)
-- les métadonnées d'auto-update (`latest.yml`)
-
-L'application installée vérifie ces Releases pour proposer les mises à jour.
+Ce dépôt **public** ne contient **aucun code source** ni secret.
 
 ## Téléchargement
 
-Voir [Releases](https://github.com/Appdev41/latelier-trading-releases/releases).
+[Release v1.0.6](https://github.com/Appdev41/latelier-trading-releases/releases/tag/v1.0.6)
+
+| Plateforme | Fichier |
+|---|---|
+| macOS Apple Silicon | `lAtelierTrading-Setup-1.0.6-mac-arm64.zip` |
+| macOS Intel | `lAtelierTrading-Setup-1.0.6-mac-x64.zip` |
+| Windows | `lAtelierTrading-Setup-1.0.1.exe` (rebuild Win à venir) |
+
+macOS : dézippe → **Installer.command** (pas l’`.app` direct).
+
+**Important :** les versions ≤ 1.0.3 embarquaient une clé Stripe — à révoquer côté Stripe Dashboard.
+
+### 1.0.6
+- Auto-détection instrument (XOUSD / XAUUSD → matières premières, plus bloqué sur Forex)
+- Package Mac allégé
